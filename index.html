@@ -10,30 +10,143 @@
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <title>Work Day Scheduler</title>
+  <title>Quick Scheduler App</title>
 </head>
 
 <body>
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
-    <p id="currentDay" class="lead"></p>
+    <i class="fa-thin fa-alicorn"></i>
+
+    <!-- Day / date / time -->
+
+    <h1 id="currentDay" class="lead" style="color: black;font-size:40px;"></h1>
+    <br>
+    <br>
+
   </header>
+
+  <!-- Rows for notes -->
   <div class="container">
 
     <div class="row">
-      <div class="col-3" id="time">
-        <p>9am</p>
-      </div>
-      <div class="col-6" id="text-block">
-        <p>Blank space for text area</p>
-      </div>
-      <div class="col-3" id="save-area">
-        <p>save column</p>
-      </div>
+
+      <div class="col-1 hour time-block">8:00</div>
+      <textarea id="8" class="col-8 input"></textarea>
+      <button class="col-1 saveBtn"><i class="far fa-save"></i></button> 
+
+
     </div>
 
-    <!-- Timeblocks go here -->
+    <div class="row">
+
+      <div class="col-1 hour time-block">9:00</div>
+      <textarea id="9" class="col-8 input complete"></textarea>
+      <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
+
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-1 hour time-block">10:00</div>
+      <textarea id="10" class=" col-8 input"></textarea>
+      <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
+
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-1 hour time-block">11:00</div>
+      <textarea id="11" class=" col-8 input"></textarea>
+      <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
+
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-1 hour time-block">12:00</div>
+      <textarea id="12" class=" col-8 input"></textarea>
+      <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
+
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-1 hour time-block">13:00</div>
+      <textarea id="13" class=" col-8 input"></textarea>
+      <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
+
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-1 hour time-block">14:00</div>
+      <textarea id="14" class="col-8 input"></textarea>
+      <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
+
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-1 hour time-block">15:00</div>
+      <textarea id="15" class=" col-8 input"></textarea>
+      <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
+
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-1 hour time-block">16:00</div>
+      <textarea id="16" class=" col-8 input"></textarea>
+      <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
+
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-1 hour time-block">17:00</div>
+      <textarea id="17" class=" col-8 input"></textarea>
+      <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
+
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-1 hour time-block">18:00</div>
+      <textarea id="18" class=" col-8 input"></textarea>
+      <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
+
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-1 hour time-block">19:00</div>
+      <textarea id="19" class=" col-8 input"></textarea>
+      <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
+
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-1 hour time-block">20:00</div>
+      <textarea id="20" class=" col-8 input"></textarea>
+      <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
+
+
+    </div>
+
   </div>
 
 
