@@ -7,7 +7,7 @@ The Quick Scheduler app is for quickly keeping track of your daily schedule.
 * Allows everyone to better manage their time effectively and quickly.
 * The app will allow anyone to see the current day and upcoming events with easy to identify colors.
 
-[Quiz App Website](#)
+[Quick Scheduler App Website](#)
 
 ![screenshot one]( "scheduler one") 
 ![screenshot two]( "scheduler two")
