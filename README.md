@@ -9,5 +9,5 @@ The Quick Scheduler app is for quickly keeping track of your daily schedule.
 
 [Quick Scheduler App Website](#)
 
-![screenshot one]( "scheduler one") 
-![screenshot two]( "scheduler two")
+![screenshot one](/assets/images/Screenshot1.png "Scheduler top")
+![screenshot one](/assets/images/Screenshot2.png "Scheduler middle")

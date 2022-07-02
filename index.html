@@ -9,13 +9,13 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
   <title>Quick Scheduler App</title>
 </head>
 
 <body>
   <header class="jumbotron">
-    <h1 class="display-3">Work Day Scheduler</h1>
+    <h1 class="display-3">Quick Scheduler App</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
     <i class="fa-thin fa-alicorn"></i>
 
@@ -27,7 +27,7 @@
 
   </header>
 
-  <!-- Rows for notes -->
+  <!-- Rows for notes and current time -->
   <div class="container">
 
     <div class="row">
@@ -132,7 +132,7 @@
     <div class="row">
 
       <div class="col-1 hour time-block">19:00</div>
-      <textarea id="19" class=" coblock"></textarea>
+      <textarea id="19" class="col-8 block"></textarea>
       <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
 
 
@@ -149,10 +149,10 @@
 
   </div>
 
-
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- latest jquery version  -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  <script src="/script.js"></script>
+  <script src="/assets/js/script.js"></script>
 </body>
 
 </html>
